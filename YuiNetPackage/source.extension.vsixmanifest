@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
+  <Metadata>
+    <Identity Id="d43d47f1-2cbd-4164-bc0d-0c967949223c" Version="1.0" Language="en-US" Publisher="Knarfalingus" />
+    <DisplayName>YuiNetPackage</DisplayName>
+    <Description>YUI NET based single file generators (custom build tool)</Description>
+  </Metadata>
+  <Installation InstalledByMsi="false">
+    <InstallationTarget Id="Microsoft.VisualStudio.Pro" Version="[10.0,13.0)" />
+    <InstallationTarget Version="[10.0,13.0)" Id="Microsoft.VisualStudio.Premium" />
+    <InstallationTarget Version="[10.0,13.0)" Id="Microsoft.VisualStudio.Ultimate" />
+    <InstallationTarget Version="[10.0,13.0)" Id="Microsoft.VisualStudio.VWDExpress" />
+  </Installation>
+  <Dependencies>
+    <Dependency Id="Microsoft.Framework.NDP" DisplayName="Microsoft .NET Framework" d:Source="Manual" Version="[4.5,)" />
+  </Dependencies>
+  <Assets>
+    <Asset Type="Microsoft.VisualStudio.VsPackage" d:Source="Project" d:ProjectName="%CurrentProject%" Path="|%CurrentProject%;PkgdefProjectOutputGroup|" />
+  </Assets>
+</PackageManifest>
