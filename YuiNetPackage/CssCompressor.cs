@@ -39,11 +39,10 @@ namespace YUICompressorTool
                 var Compressor = new Yahoo.Yui.Compressor.CssCompressor();
                 output = Compressor.Compress(inputFileContent);
             }
-            catch (Exception ex)
+            catch (Exception e)
             {
-                output = "/*Exception: " + ex.Message + "\r\n";
-                output += "" + ex.ToString() + "\r\n";
-                output += "*/\r\n";
+                throw new COMException(string.Format("{0}: {1}\n{2}",
+                        e.GetType().Name, e.Message, e.StackTrace));
             }
             return Encoding.ASCII.GetBytes(output);
         }

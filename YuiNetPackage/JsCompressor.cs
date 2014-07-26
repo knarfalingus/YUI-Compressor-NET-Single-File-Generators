@@ -36,12 +36,10 @@ namespace YUICompressorTool
                 var JsCompressor = new JavaScriptCompressor();
                 output = JsCompressor.Compress(inputFileContent);
             }
-            catch (Exception ex)
+            catch (Exception e)
             {
-                output = "alert('compressor failed for " + this.InputFilePath + "');\r\n";
-                output += "//Exception: " + ex.Message + "\r\n";
-                output += "/*" + ex.ToString() +"\r\n";
-                output += "*/\r\n";
+                throw new COMException(string.Format("{0}: {1}\n{2}",
+                        e.GetType().Name, e.Message, e.StackTrace));
             }
             return Encoding.ASCII.GetBytes(output);
 

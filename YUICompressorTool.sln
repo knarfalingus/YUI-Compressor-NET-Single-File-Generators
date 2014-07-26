@@ -6,6 +6,13 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YuiNetPackage", "YuiNetPackage\YuiNetPackage.csproj", "{3E0F9E22-F1BA-4B14-A5D8-E8C70F6C094E}"
 EndProject
 Global
+	GlobalSection(VaultVsipSolution-v2) = preSolution
+		VaultHost = https://jakartus/VaultService
+		VaultRepositoryID = 1
+		VaultRepositoryGUID = 71b21816-b2c2-4c90-b98f-bcdd9dc247ec
+		ProjectCount = 1
+		ProjectRelativeDiskPath1 = YuiNetPackage\YuiNetPackage.csproj
+	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
