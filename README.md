@@ -13,4 +13,4 @@ A Visual Studio 2013 project for creating single file generators (custom build t
 - Load or start a new web application project (or windows class library)
 
 - For CSS files, select the file in solution explorer, and in the properties Window set Custom Tool to **YuiNetCssCompressor**
-- For Javascript files, select the file in solution explorer, and in the properties Window set Custom Tool to **YuiNetJavascriptCompressor**
+- For Javascript files, select the file in solution explorer, and in the properties Window set Custom Tool to **YuiNetJsCompressor**
