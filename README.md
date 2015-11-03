@@ -1,6 +1,8 @@
 ## YUI-Compressor-NET-Single-File-Generators ##
 
-A Visual Studio 2013 project for creating single file generators (custom build tools) that compress Javascript and Css via the YUICompressor.NET library, which is located over on CodePlex at [https://yuicompressor.codeplex.com](https://yuicompressor.codeplex.com/)
+A Visual Studio 2013 project for creating single file generators (custom build tools) that compress Javascript and Css via the YUICompressor.NET library, which is located over on ~~CodePlex at [https://yuicompressor.codeplex.com](https://yuicompressor.codeplex.com/)~~
+
+now Github at [YUICompressor.NET](https://github.com/PureKrome/YUICompressor.NET)
 
 **Instructions**
 
